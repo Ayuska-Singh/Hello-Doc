@@ -1,0 +1,25 @@
+nav {
+    font-family:'Montaga',serif;
+    background: white;
+}
+
+nav li {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+nav li:hover {
+    transform: scale(1.4);
+    transition: transform 0.5s ease-in-out;
+}
+
+h1,
+p {
+    display: flex;
+}
+
+a{
+    font-weight: bold;
+}
+
+

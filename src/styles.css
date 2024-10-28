@@ -1,0 +1,70 @@
+nav{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .montaga-regular {
+    font-family: "Montaga", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+.common-form{
+  text-align: center;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  width: 300px;
+
+}
+
+.form-input{
+  height: 35px;
+  margin-bottom: 20px;
+  padding-left: 12px;
+  border: 2px solid white;
+  color : black;
+  border-radius: 40px;
+  background-color: white;
+}
+
+.form-btn{
+  height: 35px;
+  border: 1px solid white;
+  cursor: pointer;
+  color: white;
+  background-color: transparent;
+  transition: all 0.5s;
+  border-radius: 40px;
+}
+
+.form-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.form-btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.form-btn:hover span {
+  padding-right: 25px;
+}
+
+.form-btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}

@@ -1,0 +1,49 @@
+.parent-container {
+    display: flex;             
+    justify-content: center;    
+}
+
+.register-comp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montaga", serif;
+    background: rgb(60,203,211);
+    background: radial-gradient(circle, rgba(60,203,211,1) 0%, rgba(148,224,233,1) 100%);
+    margin-top: 65px;
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 50%;
+    border-radius: 25px;
+}
+.register h1 {
+    margin-bottom: 30px; 
+}
+
+.register{
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top:60px;
+    color: white;
+    font-weight: bold;
+}
+
+a{
+    padding-top: 15px;
+}
+a span{
+   cursor: pointer;
+    text-decoration: underline;
+}
+
+.form-group {
+    position: relative; 
+}
+
+.error-message {
+    color: red; 
+    font-size: 12px; 
+    position: absolute; 
+    left: 0; 
+    top: 40px; 
+}

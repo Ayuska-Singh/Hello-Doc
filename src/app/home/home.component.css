@@ -1,0 +1,40 @@
+.dotted-hr {
+    border: none;
+    text-align: center;
+    margin: 15px 0;
+    position: relative;
+}
+
+.dotted-hr::before {
+    content: "• • • • •";
+    color: #66B2FF;
+    font-size: 24px;
+    letter-spacing: 10px;
+    position: relative;
+    top: -16px; 
+}
+
+.dot-hr{
+    border: none;
+    text-align: center;
+    margin: 15px 0;
+    position: relative;
+}
+.dot-hr::before {
+    content: "• • • • •";
+    color: #66B2FF;
+    font-size: 24px;
+    letter-spacing: 10px;
+    position: relative;
+     
+}
+
+
+.text-justify {
+    text-align: justify;
+}
+
+.comp{
+    margin-left: 2%;
+    margin-right: 2%;
+}
